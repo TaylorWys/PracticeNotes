@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>鼠标滑过背景变色</title>
+    <style type="text/css">
+      .out {
+        width: 500px;
+        height: 500px;
+        background-color: cornflowerblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .bg {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        text-align: center;
+      }
+      .bg:hover {
+        background-color: burlywood;
+      }
+      .one {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: yellow;
+      }
+      .one:hover {
+        background-color: blue;
+      }
+      .two {
+        width: 0px;
+        height: 0px;
+        border-bottom: 100px solid yellow;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+      }
+      .two:hover {
+        border-bottom: 100px solid red;
+      }
+      .three {
+        border-bottom: 100px solid yellow;
+        border-left: 100px solid transparent;
+      }
+      .three:hover {
+        border-bottom: 100px solid cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="out">
+      <div class="bg"></div>
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+    </div>
+  </body>
+</html>
