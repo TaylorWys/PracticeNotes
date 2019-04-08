@@ -48,6 +48,10 @@
       .three:hover {
         border-bottom: 100px solid cornflowerblue;
       }
+      span{
+        color:red;
+        font-size: larger;
+      }
     </style>
   </head>
   <body>
@@ -57,5 +61,39 @@
       <div class="two"></div>
       <div class="three"></div>
     </div>
+    <div class="notes">
+        <p>画三角形是可借助border属性transparent</p>
+        <p>为底部设置边框，两腰设置为透明，<span>三角形的颜色为实心边设置的颜色</span></p>
+        <br>
+        <hr>
+        <br>
+        <h1>CSS ：hover选择器</h1>
+        <p>  
+          设置鼠标移到链接上的样式：<br>
+          &nbsp;&nbsp;a:hover{<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color:yellow;<br>
+            &nbsp;&nbsp;}<br>
+          ：hover可以用于所有元素，借此可以实现鼠标移到图形上实现变色。<br>
+          同时,:link 选择器设置了未访问过的页面链接样式 <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:visited 选择器设置访问过的页面链接的样式 <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:active选择器设置当你点击链接时的样式。<br>
+          为了实现预期的效果，：hover必须位于：link和：visited之后!<br>
+        </p>
+    </div>
   </body>
 </html>
+<!-- 
+  画三角形是可借助border属性transparent
+  为底部设置边框，两腰设置为透明，三角形的颜色为实心边设置的颜色
+
+  CSS ：hover选择器
+  设置鼠标移到链接上的样式：
+  a:hover{
+    background-color:yellow;
+  }
+  ：hover可以用于所有元素，借此可以实现鼠标移到图形上实现变色。
+  同时，link 选择器设置了未访问过的页面链接样式, 
+  :visited 选择器设置访问过的页面链接的样式 
+  :active选择器设置当你点击链接时的样式。
+  为了实现预期的效果，：hover必须位于：link和：visited之后！
+ -->
