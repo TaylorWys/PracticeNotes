@@ -1,12 +1,22 @@
-<!-- 
-  手记
-  关于Flex布局（Flexible Box，弹性布局）
-  一、应用范围
-    任何一个容器都可指定为flex布局，display：flex
-    行内元素，display：inline-flex
-    注：webkit内核浏览器须加 -webkit前缀，使用flex布局后，子元素的float、clear和vertical-align属性将失效
-  二、基本概念
-    采用Flex布局的元素，称为Flex容器（flex container），简称”容器”。
-    子元素成为容器成员，称为Flex项目（flex item），简称”项目”。
-    待完成，等熟悉下markdown的语法，写个.md文件
--->
+  手记（这次更多是尝试一下Markdown的语法，详细的知识我会附上参考链接）
+  
+  # 关于Flex布局（Flexible Box，弹性布局）
+  ### 一、应用范围
+  任何一个容器都可指定为flex布局，`display：flex`  
+  行内元素也可以使用flex布局，`display：inline-flex`  
+  注：webkit内核浏览器须 `-webkit -flex`，使用flex布局后，子元素的float、clear和vertical-align属性将失效      
+  ### 二、基本概念
+    采用Flex布局的元素，称为Flex容器（flex container），简称”容器”。    
+    子元素成为容器成员，称为Flex项目（flex item），简称”项目”。  
+    容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。  
+    主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。  
+    项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。  
+  ### 三、容器属性
+  + flex-direction（决定主轴方向，水平或垂直哪个为主轴，以及排列方向）
+  + flex-wrap
+  + flex-flow
+  + justify-content（项目如何在主轴对齐）
+  + align-items（项目如何在交叉轴对齐）
+  + align-content（多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。）
+  如果想实现水平和垂直居中，使用`justify-content`和`align-items`即可，默认方向为  
+  寝室熄灯了，待完成，等熟悉下markdown的语法。
