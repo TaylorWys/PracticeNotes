@@ -21,11 +21,16 @@
 默认水平方向为主轴，排列方向由左向右`---->`;垂直方向为交叉轴，排列方向由上向下`↓`。  
 ### 四、属性详解
 #### 1.flex-direction  
-    可能有四个取值。  
-    row（默认值）：主轴为水平方向，起点在左端。  
-    row-reverse：主轴为水平方向，起点在右端。  
+    可能有四个取值，与下图对应。  
+    column-reverse：主轴为垂直方向，起点在下沿。 
     column：主轴为垂直方向，起点在上沿。  
-    column-reverse：主轴为垂直方向，起点在下沿。  
-![](./pic/flex布局flex-direction.png)    
+    row（默认）：主轴为水平方向，起点在左端。  
+    row-reverse：主轴为水平方向，起点在右端。       
+![](../pic/flex布局flex-direction.png)    
+#### 2.flex-wrap
+    可能取三个值
+    nowrap（默认）：不换行，所有项目都排在一条轴线上。  
+    wrap：轴线上排列不下项目时，第一行在上方，向下换行。  
+    wrap-reverse：轴线上排列不下项目时，第一行在下方，向上换行。  
 寝室熄灯了，待完成，等熟悉下markdown的语法。  
 [Flex 布局语法教程](http://www.runoob.com/w3cnote/flex-grammar.html)。
