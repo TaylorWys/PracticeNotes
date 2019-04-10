@@ -5,11 +5,13 @@
     行内元素也可以使用flex布局，`display：inline-flex`  
     注：webkit内核浏览器须 `-webkit -flex`，使用flex布局后，子元素的float、clear和vertical-align属性将失效      
 ### 二、基本概念
-  采用Flex布局的元素，称为Flex容器（flex container），简称”容器”。    
-  子元素成为容器成员，称为Flex项目（flex item），简称”项目”。  
-  容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。  
-  主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。  
-  项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。  
+    采用Flex布局的元素，称为Flex容器（flex container），简称”容器”。    
+    子元素成为容器成员，称为Flex项目（flex item），简称”项目”。  
+    容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。（也可称作主轴和副轴）  
+    主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。  
+    项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。  
+ 图片取自Flex 布局语法教程  
+ ![](../pic/flex.png)      
 ### 三、容器属性
 + flex-direction（决定主轴方向，水平或垂直哪个为主轴，以及排列方向）
 + flex-wrap
@@ -63,5 +65,5 @@
     stretch（默认值）：轴线占满整个交叉轴。    
 图片取自Flex 布局语法教程  
 ![](../pic/align-content.png)      
-寝室熄灯了，待完成，等熟悉下markdown的语法。 
-[Flex 布局语法教程](http://www.runoob.com/w3cnote/flex-grammar.html)。
+寝室熄灯了，待完成，等熟悉下markdown的语法。   
+[参考资料：Flex 布局语法教程](http://www.runoob.com/w3cnote/flex-grammar.html)。
