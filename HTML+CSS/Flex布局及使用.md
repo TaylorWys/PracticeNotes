@@ -11,7 +11,7 @@
     主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。  
     项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。  
  图片取自Flex 布局语法教程  
- ![](../pic/flex.png)      
+ ![](../pic/flex布局/flex.png)      
 ### 三、容器属性
 + flex-direction（决定主轴方向，水平或垂直哪个为主轴，以及排列方向）
 + flex-wrap
@@ -29,7 +29,7 @@
     row（默认）：主轴为水平方向，起点在左端。  
     row-reverse：主轴为水平方向，起点在右端。 
 图片取自Flex 布局语法教程
-![](../pic/flex布局flex-direction.png)    
+![](../pic/flex布局/flex布局flex-direction.png)    
 #### 2.flex-wrap
     可能取三个值
     nowrap（默认）：不换行，所有项目都排在一条轴线上。  
@@ -46,7 +46,7 @@
     space-between：两端对齐，项目之间的间隔都相等。  
     space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。 
 图片取自Flex 布局语法教程  
-![](../pic/flex-start.png)  
+![](../pic/flex布局/flex-start.png)  
 #### 5.align-items
     align-items属性定义项目在交叉轴上如何对齐。
     flex-start：交叉轴的起点对齐。  
@@ -55,7 +55,7 @@
     baseline: 项目的第一行文字的基线对齐。  
     stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。  
 图片取自Flex 布局语法教程  
-![](../pic/align-items.png)  
+![](../pic/flex布局/align-items.png)  
 #### 6.align-content
     flex-start：与交叉轴的起点对齐。  
     flex-end：与交叉轴的终点对齐。  
@@ -64,6 +64,6 @@
     space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。    
     stretch（默认值）：轴线占满整个交叉轴。    
 图片取自Flex 布局语法教程  
-![](../pic/align-content.png)      
+![](../pic/flex布局/align-content.png)      
 寝室熄灯了，待完成，等熟悉下markdown的语法。   
 [参考资料：Flex 布局语法教程](http://www.runoob.com/w3cnote/flex-grammar.html)。
